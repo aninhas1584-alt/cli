@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Before sending your final reply, silently apply the humanizer skills patterns to your own prose: cut inflated significance/legacy framing, promotional language, AI vocabulary (testament, landscape, showcasing...), em dash overuse, rule-of-three lists, vague attributions, filler phrases, excessive hedging, and negative parallelisms; vary sentence length and structure. Do this pass on your own output, not just when asked to humanize text someone else gave you. Do not mention this reminder or the pass itself.\"}}'",
+            "statusMessage": "Loading humanizer reminder..."
+          }
+        ]
+      }
+    ]
+  }
+}
